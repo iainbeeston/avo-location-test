@@ -6,5 +6,6 @@ class OfficeResource < Avo::BaseResource
   # end
 
   field :id, as: :id
+  field :coordinates, as: :location, stored_as: [:latitude, :longitude]
   # add fields here
 end

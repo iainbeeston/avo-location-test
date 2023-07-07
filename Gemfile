@@ -72,3 +72,5 @@ group :test do
 end
 
 gem "avo", "~> 2.36"
+
+gem "mapkick-rb", "~> 0.1.4"
